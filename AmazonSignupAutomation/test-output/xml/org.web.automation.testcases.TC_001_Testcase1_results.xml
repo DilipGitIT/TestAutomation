@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3.279">
+  <properties />
+  
+  
+            <testcase name="startBrowser" time="3.279" classname="org.web.automation.testcases.TC_001_Testcase1" />
+      
+</testsuite>

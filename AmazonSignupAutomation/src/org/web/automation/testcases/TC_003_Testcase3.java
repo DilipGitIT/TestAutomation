@@ -17,7 +17,7 @@ import org.web.automation.utility.PropertyReader;
 import org.web.automation.utility.TakeScreenshot;
 
 
-public class TC_001_Testcase1 extends BaseFunctions {
+public class TC_003_Testcase3 extends BaseFunctions {
 
 	@Test
 	public void startBrowser(){
@@ -25,10 +25,10 @@ public class TC_001_Testcase1 extends BaseFunctions {
 		TestingWorldHomePage HomePage =PageFactory.initElements(driver, TestingWorldHomePage.class);
 		HomePage.ClickLoginButton();
 		TestingWorldLoginPage LoginPage = PageFactory.initElements(driver, TestingWorldLoginPage.class);
-		LoginPage.EnterUserName("testuser1");		
-		LoginPage.EnterPassword("testpass1");
+		LoginPage.EnterUserName("testuser3");		
+		LoginPage.EnterPassword("testpass3");
 		LoginPage.HitLogInButton();
-		Assert.assertTrue(PageVerifications.ValidatePageTitle(driver, "Login"));
+		Assert.assertTrue(PageVerifications.ValidatePageTitle(driver, "Loginng"));
 		TakeScreenshot.CaptureScreenshot(driver, "Login Error");
 
 	}
