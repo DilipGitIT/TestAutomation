@@ -1,42 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25308" started-at="2020-07-24T22:11:13Z" finished-at="2020-07-24T22:11:39Z">
+  <suite name="Default suite" duration-ms="31775" started-at="2020-07-27T18:32:52Z" finished-at="2020-07-27T18:33:24Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="25308" started-at="2020-07-24T22:11:13Z" finished-at="2020-07-24T22:11:39Z">
+    <test name="Default test" duration-ms="31775" started-at="2020-07-27T18:32:52Z" finished-at="2020-07-27T18:33:24Z">
       <class name="org.web.automation.testcases.TC_001_Testcase1">
-        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@32709393]" name="StartBrowser" is-config="true" duration-ms="5992" started-at="2020-07-24T22:11:13Z" finished-at="2020-07-24T22:11:19Z">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="StartBrowser" is-config="true" duration-ms="6078" started-at="2020-07-27T18:32:53Z" finished-at="2020-07-27T18:32:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartBrowser -->
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@32709393]" name="startBrowser" duration-ms="3279" started-at="2020-07-24T22:11:19Z" finished-at="2020-07-24T22:11:23Z">
+        <test-method status="PASS" signature="startBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="startBrowser" duration-ms="3171" started-at="2020-07-27T18:32:59Z" data-provider="Excel" finished-at="2020-07-27T18:33:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tesdtpass1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@32709393]" name="CloseBrowser" is-config="true" duration-ms="176" started-at="2020-07-24T22:11:23Z" finished-at="2020-07-24T22:11:23Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="CloseBrowser" is-config="true" duration-ms="145" started-at="2020-07-27T18:33:02Z" finished-at="2020-07-27T18:33:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- org.web.automation.testcases.TC_001_Testcase1 -->
-      <class name="org.web.automation.testcases.TC_001_Testcase3">
-        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase3@49fc609f]" name="StartBrowser" is-config="true" duration-ms="5048" started-at="2020-07-24T22:11:31Z" finished-at="2020-07-24T22:11:36Z">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="StartBrowser" is-config="true" duration-ms="5176" started-at="2020-07-27T18:33:02Z" finished-at="2020-07-27T18:33:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartBrowser -->
-        <test-method status="FAIL" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase3@49fc609f]" name="startBrowser" duration-ms="2181" started-at="2020-07-24T22:11:36Z" finished-at="2020-07-24T22:11:38Z">
-          <exception class="java.lang.AssertionError">
+        <test-method status="PASS" signature="startBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="startBrowser" duration-ms="2554" started-at="2020-07-27T18:33:07Z" data-provider="Excel" finished-at="2020-07-27T18:33:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tesdtpass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="CloseBrowser" is-config="true" duration-ms="213" started-at="2020-07-27T18:33:10Z" finished-at="2020-07-27T18:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="StartBrowser" is-config="true" duration-ms="5252" started-at="2020-07-27T18:33:10Z" finished-at="2020-07-27T18:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartBrowser -->
+        <test-method status="FAIL" signature="startBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="startBrowser" duration-ms="674" started-at="2020-07-27T18:33:15Z" data-provider="Excel" finished-at="2020-07-27T18:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tesdtpass3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-8HPLHVID', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dilip\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8460e5db75cd6ec24ecbfaed783a4e8a
+*** Element info: {Using=name, value=username}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:96)
-at org.testng.Assert.failNotEquals(Assert.java:776)
-at org.testng.Assert.assertTrue(Assert.java:44)
-at org.testng.Assert.assertTrue(Assert.java:54)
-at org.web.automation.testcases.TC_001_Testcase3.startBrowser(TC_001_Testcase3.java:31)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='username']"}
+  (Session info: chrome=84.0.4147.89)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-8HPLHVID', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\dilip\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64146}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8460e5db75cd6ec24ecbfaed783a4e8a
+*** Element info: {Using=name, value=username}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+at org.web.automation.pages.TestingWorldLoginPage.EnterUserName(TestingWorldLoginPage.java:13)
+at org.web.automation.testcases.TC_001_Testcase1.startBrowser(TC_001_Testcase1.java:30)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -64,29 +140,39 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase3@49fc609f]" name="CloseBrowser" is-config="true" duration-ms="164" started-at="2020-07-24T22:11:38Z" finished-at="2020-07-24T22:11:39Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="CloseBrowser" is-config="true" duration-ms="150" started-at="2020-07-27T18:33:16Z" finished-at="2020-07-27T18:33:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- org.web.automation.testcases.TC_001_Testcase3 -->
-      <class name="org.web.automation.testcases.TC_001_Testcase2">
-        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase2@3d99d22e]" name="StartBrowser" is-config="true" duration-ms="5669" started-at="2020-07-24T22:11:23Z" finished-at="2020-07-24T22:11:28Z">
+        <test-method status="PASS" signature="StartBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="StartBrowser" is-config="true" duration-ms="5304" started-at="2020-07-27T18:33:16Z" finished-at="2020-07-27T18:33:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartBrowser -->
-        <test-method status="PASS" signature="startBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase2@3d99d22e]" name="startBrowser" duration-ms="2604" started-at="2020-07-24T22:11:28Z" finished-at="2020-07-24T22:11:31Z">
+        <test-method status="PASS" signature="startBrowser(java.lang.String, java.lang.String)[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="startBrowser" duration-ms="2368" started-at="2020-07-27T18:33:21Z" data-provider="Excel" finished-at="2020-07-27T18:33:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tesdtpass4]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase2@3d99d22e]" name="CloseBrowser" is-config="true" duration-ms="163" started-at="2020-07-24T22:11:31Z" finished-at="2020-07-24T22:11:31Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:org.web.automation.testcases.TC_001_Testcase1@5c3bd550]" name="CloseBrowser" is-config="true" duration-ms="276" started-at="2020-07-27T18:33:24Z" finished-at="2020-07-27T18:33:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-      </class> <!-- org.web.automation.testcases.TC_001_Testcase2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- org.web.automation.testcases.TC_001_Testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
